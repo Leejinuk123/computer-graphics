@@ -26,3 +26,6 @@ void draw(){ //loop part
   ellipse(0, 0, 80, 80);
 }
 ```
+
+![주석 2020-03-17 202106](https://user-images.githubusercontent.com/50895677/76852053-e16e4880-688d-11ea-9e6e-430c9a09099c.png)
+
