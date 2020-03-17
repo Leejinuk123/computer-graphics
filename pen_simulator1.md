@@ -1,7 +1,7 @@
 > ## 1. 프로세싱 그림판 펜 기능 구현하기
 ## 핵심 Keywords :
     line() : 좌표 함수
-    pmouseX, pmouseY, mouseX(현재 마우스의 위치 X좌표), mouseY(현재 마우스의 위치 좌표)
+    pmouseX, pmouseY, mouseX(현재 마우스의 위치 X좌표), mouseY(현재 마우스의 Y위치 좌표)
     stroke(0,255,0) 펜의 색깔
     strokeWeight() 펜의 굵기
   
