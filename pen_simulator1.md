@@ -8,21 +8,14 @@
 
 ## 예제 1 : 
 ```processing
-void setup(){
+ void setup(){
   size(500,500);
-  
+  stroke(0,255,0); //color
+  strokeWeight(16); //size pixel
 }
-int h=0;
 void draw(){
-  background(0); //backgraound color 0=black 255=white
-  fill(0,255,0); //R,G,B
-  //ellipse(150,150,100,100);
-  ellipse(250,h+=5,200,200);
-  //h++ = h=h+1 = h+=1;
-  //println(frameRate); //frame print
-  
-  if(h>500) h=0;
-  
+  if(mousePressed)
+      line(pmouseX,pmouseY,mouseX,mouseY);  
 }
 ```
 
