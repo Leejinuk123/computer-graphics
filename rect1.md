@@ -8,7 +8,7 @@
     
 * * *
 
-## 예시 : 
+## 예시 1(translate 사용) : 
 ```processing
 void setup(){ //initial
   size(500,500);
@@ -24,6 +24,25 @@ void draw(){ //loop part
   rect(0 , 0, 80, 80); //draw squad
   fill(255,0,255);
   ellipse(0, 0, 80, 80);
+}
+```
+
+## 예시 2(translate 미사용) : 
+```processing
+void setup(){ //initial
+  size(500,500);
+  rectMode(CENTER);
+}
+float f=0;
+void draw(){ //loop part
+  //translate(mouseX, mouseY); //translate = move
+  rotate(f); //rotation
+  scale( sin(f)+1); //sin(f) = -1~1, sin(f)+1 = 0~2
+  f=f+0.05;
+  fill(0,255,0);
+  rect(mouseX , mouseY, 80, 80); //draw squad
+  fill(255,0,255);
+  ellipse(mouseX, mouseY, 80, 80);
 }
 ```
 
