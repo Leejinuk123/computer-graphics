@@ -21,6 +21,8 @@ ellipse(500,500,500,500);
 ![주석 2020-03-16 201038](https://user-images.githubusercontent.com/50895677/76815287-8a8e5200-6840-11ea-8bdb-e8e4607ef2ab.png)
 
 
+* * *
+
 > ## 2. 프로세싱 원 움직이기
 ## 핵심 Keywords
     frameRate : 프레임을 출력해준다.
